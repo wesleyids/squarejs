@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Square</title>
+
+	<link rel="stylesheet" href="../css/square.css" />
+
+	<script src="../js/square.js"></script>
+</head>
+<body>
+	<style type="text/css">
+		.div img {
+			height: 200px;
+			margin: 10px;
+			cursor: pointer;
+		}
+	</style>
+
+	<div class="div">
+		<img src="img/9.jpeg" class="my-image"  data-image-large="large.png">
+		<img src="img/10.jpeg" class="my-image" data-image-large="">
+		<img src="img/1.jpg" class="my-image" data-image-large="">
+		<img src="img/2.jpg" class="my-image" data-image-large="">
+		<img src="img/3.jpg" class="my-image" data-image-large="">
+		<img src="img/4.jpg" class="my-image" data-image-large="">
+		<img src="img/5.jpg" class="my-image" data-image-large="">
+		<img src="img/6.jpg" class="my-image" data-image-large="">
+		<img src="img/7.jpg" class="my-image" data-image-large="">
+		<img src="img/8.jpg" class="my-image" data-image-large="">
+
+		<!-- <img src="img/9.jpeg"  data-image-large="" onclick="square.open(this)"> -->
+	</div>
+
+	<script>
+		// Start
+		var square = new Square('.my-image', {disableShortcuts: false});
+	</script>
+
+</body>
+</html>
